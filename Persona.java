@@ -1,21 +1,21 @@
 public class Persona {
-    String nombre;
+    String nombres;
     int edad;
-    public Persona (String nombre, int edad) {
-        this.nombre = nombre;
+    public Persona (String nombres, int edad) {
+        this.nombres = nombres;
         this.edad = edad;
     }
 
     public String getNombre(){
-        return  this.nombre;
+        return  this.nombres;
     }
 
     public int getEdad(){
         return  this.edad;
     }
 
-    public void setNombre(String nombre){
-        this.nombre = nombre;
+    public void setNombre(String nombres){
+        this.nombres = nombres;
     }
 
     public void setEdad (int edad){
@@ -24,7 +24,7 @@ public class Persona {
 
     public String toString(){
         String salida;
-        salida = this.nombre + " - " + this.edad;
+        salida = this.nombres + " - " + this.edad;
         return  salida;
     }
     
